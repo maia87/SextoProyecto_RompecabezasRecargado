@@ -1,0 +1,107 @@
+body {
+  font-family: 'Architects Daughter', sans-serif;
+  font-size: 100%;
+  width: 940px;
+  margin: 5% auto;
+  min-height: 100%;
+  background-image: url(../images/adventure.jpg);
+}
+
+.col-40, .col-60 {
+  display: table-cell;
+  margin: 0;
+  vertical-align: top;
+}
+.col-40 {
+  background: #604878;
+  padding: 1% 2%;
+  color: #FFFFFF;
+}
+
+#juego {
+  background-color: #a1bee6;
+  width: 600px;
+  height: 600px;
+  text-align: center;
+}
+
+#titulo h1 {
+  font-family: 'Architects Daughter';
+  font-size: 1.5625em;
+  text-transform: uppercase;
+  background-color: #62297D;
+  padding: 5% 0 5% 5%;
+}
+
+.indicaciones h1 {
+  font-size: 1.2em;
+  color: #a1bee6;
+  border-bottom: solid 1px #a1bee6;
+}
+
+#cantidadPiezasPorLado {
+  text-align: center;
+  font-family: 'Architects Daughter';
+  font-weight: bold;
+  font-size: 1em;
+  color: #604878;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+li {
+  padding: 5px 0;
+}
+li::before {
+  content: "• ";
+  color: 	#FFFFFF;
+}
+
+#boton {
+  margin: 0 35%;
+  font-family: 'Architects Daughter';
+  font-size: 1.25em;
+  text-shadow: 2px 2px #000000;
+  color: #FFFFFF;
+  background-color: #62297D;
+  border: solid 1px #62297D;
+}
+
+#movimientosRestantes {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 2px 2px #000000;
+  letter-spacing: 0.11em;
+  margin-top: 7%;
+  margin-left: 5%;
+  float: left;
+}
+
+#contadorMovimientos {
+  font-weight: bold;
+  font-size: 3em;
+  text-shadow: 2px 2px #000000;
+  margin-top: 6%;
+  margin-right: 4%;
+  float: right;
+}
+
+#pie {
+  background-color: #62297D;
+  font-size: 1em;
+  letter-spacing: 0.09em;
+  color: #FFFFFF;
+  clear:both;
+  height: 15%;
+  margin-top: 0%;
+  padding: 1% 0% 1% 15%;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
